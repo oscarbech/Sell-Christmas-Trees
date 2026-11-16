@@ -19,3 +19,4 @@ tags: [planning]
 - Removed the Workshop (decorating) expansion. It also held the only rebirth pad, so rebirth has no pad for now ([[Workshop & Decorating]], [[Rebirth]]).
 - [[Drive-Thru]] moved east onto the old Workshop ground and the building is now 40 × 40 (was 14 × 27): new walls with windows, bigger roof with 4 lamps, door on the west side with a path and crosswalk from the tree shop, bigger lot, lane and U-turn. Windows, netting machine, signs and the drive-thru BUILD buttons moved with it.
 - Fixed the floating labels of the drive-thru and Expand Shop BUILD buttons: they hung over the road instead of above their buttons.
+- [[Tree Lot]] moved 18 studs west (lot, decorations, parking, parking pad, Expand Shop button); the shop-to-lot link floor and wall stretched to match; parking spot positions and the present-drop area updated in code.
