@@ -16,3 +16,6 @@ tags: [planning]
 - Netting machine inside the drive-thru shop: trees ride a conveyor through a funnel and come out wrapped in net. Only netted trees go on cars.
 - Rebirth now also takes the drive-thru builds back down.
 - Everything locked is now visible in Studio edit mode: BUILD button pieces, field chunks, shop wings, tree lot, workshop and car templates sit in `Workspace.EditStorage` and `EditStorageLoader` moves them into ServerStorage when the game starts ([[Edit Mode]]).
+- Removed the Workshop (decorating) expansion. It also held the only rebirth pad, so rebirth has no pad for now ([[Workshop & Decorating]], [[Rebirth]]).
+- [[Drive-Thru]] moved east onto the old Workshop ground and the building is now 40 × 40 (was 14 × 27): new walls with windows, bigger roof with 4 lamps, door on the west side with a path and crosswalk from the tree shop, bigger lot, lane and U-turn. Windows, netting machine, signs and the drive-thru BUILD buttons moved with it.
+- Fixed the floating labels of the drive-thru and Expand Shop BUILD buttons: they hung over the road instead of above their buttons.

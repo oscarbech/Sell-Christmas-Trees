@@ -11,7 +11,7 @@ It all sits in `Workspace.EditStorage`:
 | Folder | Moved to at game start | Used by |
 |---|---|---|
 | `RemovedForStart.<Plot>` | `ServerStorage.RemovedForStart` | BUILD button pieces, drive-thru, parking, old pads ([[Drive-Thru]], `TycoonButtons`, `ParkingLot`) |
-| `PlotExpansions.<Plot>` | `ServerStorage.PlotExpansions` | field chunks, shop wings, tree lot, workshop ([[Field & Expansions]]) |
+| `PlotExpansions.<Plot>` | `ServerStorage.PlotExpansions` | field chunks, shop wings, tree lot ([[Field & Expansions]]) |
 | `Cars` | `ServerStorage.Cars` | car templates, parked on the street (`DriveThru`, `ParkingLot`) |
 | `EditOnly.<Plot>.FieldFence` | deleted | preview of the full field fence. The real one is built in code from the open chunks |
 
@@ -20,7 +20,7 @@ It all sits in `Workspace.EditStorage`:
 ## Things to know
 - Because everything shows at once, some pieces overlap in edit mode:
   - the shop wings (`ShopEast` / `ShopWest`) and the walls they replace;
-  - the old Shop East wing / Workshop and the drive-thru;
+  - the old Shop East wing and the path to the drive-thru;
   - the starting field's back fence and the first field chunks.
   In the game only one of each is ever out.
 - New locked pieces go in `EditStorage` (under the right folder, with their `BuildId`), not in ServerStorage.

@@ -19,5 +19,5 @@ Locked pieces live in `ServerStorage.PlotExpansions.<PlotName>` and are moved in
 | Piece | Unlocked by |
 |---|---|
 | `ShopEast` / `ShopWest` | Expand Shop level 1 / 2 ([[Shop Upgrades]]) |
-| `Workshop` | BUILD WORKSHOP ([[Workshop & Decorating]]) |
+| ~~`Workshop`~~ | removed; its ground is the [[Drive-Thru]] now ([[Workshop & Decorating]]) |
 | `TreeLot`, `LotDeco1..3` | OPEN TREE LOT, DECORATE LOT ([[Tree Lot]]) |
