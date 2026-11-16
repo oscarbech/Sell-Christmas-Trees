@@ -1,6 +1,6 @@
 ---
 tags: [economy]
-source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
+source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig, DriveThru CONFIG, BuildButtons attributes
 ---
 # Prices & Costs
 
@@ -12,7 +12,7 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
 | Rebirth bonus | +50% per rebirth |
 | Decorated tree | × 2.5 |
 | Golden tree | tree price × 8 |
-| Drive-thru car | × 2 / 2.5 / 3 per tree |
+| Drive-thru car | × 2 per netted tree (× 3 with the tip jar) |
 | Tree lot shopper | × 1.5 |
 
 ## Upgrades
@@ -24,7 +24,6 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
 | Carry More | 300, 900, 2,500, 6,000 |
 | Faster Maker | 600, 1,500, 4,000 (×0.75 time per level) |
 | Running Shoes | 400, 1,200, 3,500, 9,000 (+3 speed each, base 16) |
-| Drive-Thru | 1,000, 3,000, 8,000 |
 | Toolsmith | 750 |
 | Workshop | 5,000 |
 | Tree Lot | 2,500 |
@@ -32,6 +31,22 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
 | Lot decorations | 2,000, 5,000, 12,000 |
 | Lumberjack / Seller / Loader | 500 / 2,500 / 6,000 |
 | Rebirth | 25,000 × (rebirths + 1) |
+
+## Drive-thru shop (BUILD buttons, in order)
+| Button | Cost |
+|---|---|
+| Drive-Thru Lot | 500 |
+| Drive-Thru Shop (walls + roof) | 600 |
+| Shop Sign | 300 |
+| Order Speaker | 400 |
+| Pick-Up Window (cars start coming) | 500 |
+| Netting Machine | 700 |
+| Turbo Netter (netting × 0.5 time) | 2,500 |
+| Billboard: More Cars | 4,000 |
+| Tip Jar: +50% Pay | 6,000 |
+| Second Window | 8,000 |
+
+3,000 to get it running, 23,500 for everything. See [[Drive-Thru]].
 
 ## Production
 | Value | Number |
@@ -41,5 +56,8 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
 | Output tray cap | 12 |
 | Regrow time | 45 s |
 | Decorate time | 3 s (min 1 s) |
+| Netting time | 3 s (1.5 s with Turbo Netter) |
+| Netting machine / rack cap | 6 / 6 |
+| Drive-thru cars | one every 14 s, max 3 (8 s, max 5 with the billboard) |
 
 Axe prices: [[Axe & Toolsmith]]. Field placeholder: the 20,000 last chunk price was picked as a placeholder.

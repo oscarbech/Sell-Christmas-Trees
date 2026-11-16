@@ -10,7 +10,7 @@ tags: [design]
 5. **Upgrade:** spend cash on pads ([[Shop Upgrades]]), expand the field ([[Field & Expansions]]), hire [[Workers]].
 
 ## Later layers
-- [[Drive-Thru]]: cars buy several trees at once for more.
+- [[Drive-Thru]]: your own drive-thru shop. Net trees in the machine and hand them out to cars for double pay.
 - [[Workshop & Decorating]]: decorated trees sell for 2.5×.
 - [[Tree Lot]]: a display yard where shoppers buy on their own.
 - [[Rebirth]]: reset for +50% on every sale per rebirth.

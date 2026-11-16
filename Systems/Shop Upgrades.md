@@ -15,7 +15,7 @@ Step on a pad to buy it. Prices are in `PlotManager.CONFIG` (see [[Prices & Cost
 | FASTER MAKER | Tree Maker and decorator ×0.75 time ([[Tree Maker]]) |
 | RUNNING SHOES | +3 walk speed |
 | TOOLSMITH | opens the toolsmith ([[Axe & Toolsmith]]) |
-| DRIVE-THRU | [[Drive-Thru]] (needs shop level 1) |
+| DRIVE-THRU | old pad, not used any more: the [[Drive-Thru]] shop is built with BUILD buttons |
 | BUILD WORKSHOP | [[Workshop & Decorating]] (needs drive-thru) |
 | OPEN TREE LOT | [[Tree Lot]] (needs shop level 1) |
 | HIRE … | [[Workers]] (in the east shop wing) |
