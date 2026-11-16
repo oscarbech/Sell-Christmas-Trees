@@ -10,3 +10,5 @@ tags: [planning]
 - Expand Field pad moved to the end of the path and follows it.
 - `/wipe` command ([[Commands]]).
 - Tree regrow: tried growing animations, kept the original bouncy pop + a green pulse when ready ([[Trees & Chopping]]).
+- Chop debris now floats straight up out of the tree (anchored tween, no collision, max ~3 studs sideways) instead of flying off and bouncing around the field.
+- Tree Maker sign above the machine: TREE MAKER, 3 logs → 1 tree, a progress bar (yellow logs 0-3/3, green making %, red tray full) and a status line ([[Tree Maker]]).
