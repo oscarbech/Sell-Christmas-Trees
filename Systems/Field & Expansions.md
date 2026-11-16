@@ -4,7 +4,7 @@ script: ServerScriptService.Expansions
 ---
 # Field & Expansions
 
-Locked pieces live in `ServerStorage.PlotExpansions.<PlotName>` and are moved into the plot when bought. `Expansions.apply(plot, fieldLevel, shopLevel, extras)` only changes what's different (no flashing, chopped trees stay chopped).
+Locked pieces live in `ServerStorage.PlotExpansions.<PlotName>` and are moved into the plot when bought. In Studio they sit in `Workspace.EditStorage.PlotExpansions` so you can see them ([[Edit Mode]]). `Expansions.apply(plot, fieldLevel, shopLevel, extras)` only changes what's different (no flashing, chopped trees stay chopped).
 
 ## Tree field
 - **Starting field:** 6 columns × 3 rows of trees, with a path down the middle.

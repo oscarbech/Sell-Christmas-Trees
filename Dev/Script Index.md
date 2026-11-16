@@ -19,6 +19,7 @@ tags: [tech]
 | `TycoonExtras` | Script | [[Events]], [[Offline Earnings & Presents]], daily reward, leaderboard |
 | `PlayTogetherServer` | Script | [[Play Together]] |
 | `CheatCommands` | Script | [[Commands]] |
+| `EditStorageLoader` | Script | moves `Workspace.EditStorage` into ServerStorage at start ([[Edit Mode]]) |
 
 ## ReplicatedStorage
 | Module | Purpose |
@@ -34,5 +35,6 @@ tags: [tech]
 `HUDController` (stats, tutorial, Robux shop, quests), `PlayTogetherController`, `ToolsmithController`, `SettingsController`
 
 ## ServerStorage
+In Studio, `RemovedForStart`, `PlotExpansions` and `Cars` sit in `Workspace.EditStorage` and are moved here when the game starts ([[Edit Mode]]).
 - `RemovedForStart.<Plot>.Plot`: pieces the BUILD buttons drop in (drive-thru pieces are `DT_*`).
 - `OldScripts.DriveThru_v1_roadside`: the old roadside drive-thru module, kept as a backup.

@@ -15,3 +15,4 @@ tags: [planning]
 - New [[Drive-Thru]]: a standalone drive-thru shop ("Trees To Go") east of the tree shop. Cars order at a speaker, loop round the building and stop at a pick-up window; you hand out netted trees from inside. Built piece by piece with 10 purple BUILD buttons (lot, shop, sign, speaker, window, netting machine, then turbo, billboard, tip jar, second window). Replaces the old roadside LOAD CAR drive-thru.
 - Netting machine inside the drive-thru shop: trees ride a conveyor through a funnel and come out wrapped in net. Only netted trees go on cars.
 - Rebirth now also takes the drive-thru builds back down.
+- Everything locked is now visible in Studio edit mode: BUILD button pieces, field chunks, shop wings, tree lot, workshop and car templates sit in `Workspace.EditStorage` and `EditStorageLoader` moves them into ServerStorage when the game starts ([[Edit Mode]]).

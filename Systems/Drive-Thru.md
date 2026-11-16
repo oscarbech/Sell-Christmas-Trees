@@ -46,7 +46,7 @@ Until the Netting Machine is built, cars at the window show `BUILD THE NETTING M
 - Trees inside the netting machine or on its rack are not saved.
 
 ## Tech notes
-- Pieces wait in `ServerStorage.RemovedForStart.<Plot>.Plot` with a `BuildId` attribute; buttons are `Build_DT_*` in the plot's `BuildButtons`. Prices and order are attributes on the buttons (`Price`, `Requires`).
+- Pieces wait in `ServerStorage.RemovedForStart.<Plot>.Plot` with a `BuildId` attribute (in Studio: `Workspace.EditStorage.RemovedForStart`, see [[Edit Mode]]); buttons are `Build_DT_*` in the plot's `BuildButtons`. Prices and order are attributes on the buttons (`Price`, `Requires`).
 - `DriveThru` (server): cars, the lane path, orders, the netting machine, pay. Numbers are in its `CONFIG`. Positions are offsets from the plot pivot, so a copied plot works.
 - `DriveThruEffects` (client): machine sign + progress bar, conveyor, the tree riding through the funnel, sparkles, turbo fan, roof fade.
 - `ReplicatedStorage.NettedTree`: the netted tree model (attribute `Netted`).

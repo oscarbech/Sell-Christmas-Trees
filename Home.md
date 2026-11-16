@@ -18,7 +18,7 @@ Place in Studio: **Build a Christmas Tree Empire** (placeId `87163912011225`).
 - Helpers: [[Workers]]
 - Progression: [[Rebirth]] · [[Events]] · [[Daily Rewards & Quests]] · [[Offline Earnings & Presents]]
 - Players: [[Play Together]] · [[Settings]] · [[Robux Shop]]
-- Tech: [[Saving]] · [[Commands]] · [[Script Index]]
+- Tech: [[Saving]] · [[Commands]] · [[Script Index]] · [[Edit Mode]]
 
 ## Planning
 - [[Ideas]]
