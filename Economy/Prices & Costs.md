@@ -1,0 +1,45 @@
+---
+tags: [economy]
+source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig
+---
+# Prices & Costs
+
+## Selling
+| Value | Number |
+|---|---|
+| Base tree price | 30 |
+| + per shop wing | 10 |
+| Rebirth bonus | +50% per rebirth |
+| Decorated tree | × 2.5 |
+| Golden tree | tree price × 8 |
+| Drive-thru car | × 2 / 2.5 / 3 per tree |
+| Tree lot shopper | × 1.5 |
+
+## Upgrades
+| Upgrade | Costs |
+|---|---|
+| Backpack | 25 × level (start 5 logs, +5 per level) |
+| Expand Field (8 chunks) | 150, 400, 900, 2,000, 4,500, 8,000, 13,000, 20,000 |
+| Expand Shop | 250, 600 |
+| Carry More | 300, 900, 2,500, 6,000 |
+| Faster Maker | 600, 1,500, 4,000 (×0.75 time per level) |
+| Running Shoes | 400, 1,200, 3,500, 9,000 (+3 speed each, base 16) |
+| Drive-Thru | 1,000, 3,000, 8,000 |
+| Toolsmith | 750 |
+| Workshop | 5,000 |
+| Tree Lot | 2,500 |
+| Lot stands | 1,500, 4,000 |
+| Lot decorations | 2,000, 5,000, 12,000 |
+| Lumberjack / Seller / Loader | 500 / 2,500 / 6,000 |
+| Rebirth | 25,000 × (rebirths + 1) |
+
+## Production
+| Value | Number |
+|---|---|
+| Logs per tree (machine) | 3 |
+| Craft time | 2 s |
+| Output tray cap | 12 |
+| Regrow time | 45 s |
+| Decorate time | 3 s (min 1 s) |
+
+Axe prices: [[Axe & Toolsmith]]. Field placeholder: the 20,000 last chunk price was picked as a placeholder.
