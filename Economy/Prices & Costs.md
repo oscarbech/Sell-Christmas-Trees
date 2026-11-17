@@ -55,8 +55,9 @@ First button appears after Expand Shop.
 | Store Walls | 2,500 |
 | Store Sign | 1,000 |
 | Delivery Path (drive + back path + loading bay) | 3,500 |
+| Office PC (stock + staff computer) | 750 |
 
-9,000 for the shell. Placeholder prices until the store sells things ([[Butik & New Layout]]).
+9,750 for the shell + PC. Furniture prices: [[Store Building]]. Stock and staff prices: [[Store Stock & Staff]]. Placeholder prices until the store sells things ([[Butik & New Layout]]).
 
 ## Production
 | Value | Number |
