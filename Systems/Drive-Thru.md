@@ -20,7 +20,7 @@ It is separate from the tree shop (own building, own door, a path and crosswalk 
 - Netted trees can still be sold to walk-up customers at the normal price, so you're never stuck holding one.
 - Pay per tree: **tree price × 2** (× 1.5 more with the tip jar), and the sell combo counts. See [[Prices & Costs]].
 - Car Parade event: cars come 3× as often ([[Events]]).
-- While you're inside, the roof and upper walls fade so you can see yourself work.
+- While you're inside (anywhere in the shop building), the roofs and upper walls fade so you can see yourself work.
 
 ## Buying it (tycoon buttons)
 Built piece by piece with the purple BUILD buttons, one after another. Each piece drops in when bought. The first button appears once the tree shop's Walls are built.
@@ -50,7 +50,7 @@ Until the Netting Machine is built, cars at the window show `BUILD THE NETTING M
 - Layout (offsets from the plot pivot): room x 20..36, z -17..35, door from the middle (stand + lager) at z 3..9. Lane asphalt x 36..58: entry lane x 40.3 (speaker z -28, windows z -13 and 2), U-turn at z 32, exit lane x 50.3 (`DriveThru.CONFIG`). Netting machine x 22..28 along z -10..3, NET TREES at the door end, rack + TAKE NETTED at the front.
 - The room walls are `DT_RoomWalls` + `DT_WallEast` (build id `DT_Shop`, button "Drive-In Room"); `DT_WallEast.Shutter2` covers window 2 until Second Window is bought.
 - The two windows must be exactly `Gap` (15) apart, or the second car in line stops short of window 2 and can't be served.
-- `DriveThruEffects` has the room footprint too (`SHOP_MIN` / `SHOP_MAX`, for the roof fade; the room has no roof now).
+- `DriveThruEffects` fades every `FadeInside` part (roofs + upper walls of the whole shop building) while you're inside the building box `SHOP_MIN` / `SHOP_MAX` (x -84..36, z -23..35). The drive-in roof is `DT_Roof` (comes with `DT_Shop`).
 - `DriveThruEffects` (client): machine sign + progress bar, conveyor, the tree riding through the funnel, sparkles, turbo fan, roof fade.
 - `ReplicatedStorage.NettedTree`: the netted tree model (attribute `Netted`).
 - `TreeFarmServer` calls `DriveThru.canFeed/feed`, `canTake/take`, `carNear`, `load`.

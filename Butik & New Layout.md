@@ -30,6 +30,7 @@ One building along the road, like the sketch. Offsets from the plot pivot (road 
 - **Back path** (delivery lane) z 37..45 from x -94 to the car lane, with a yellow loading bay behind the lager. Built by Delivery Path.
 - **Field** moved 38 studs back in total: the gate is at z 51.5. `FieldWalk` (x -3..3, z 35..51.5) goes from the back door across the back path to the gate.
 - Shop floor for butik furniture: x -83..-21, z -16..34 (about 62 x 50).
+- **Roof**: every section has red upper walls (y 4.6..11, white trim) and a snowy red roof, like the old drive-in. They come with that section's walls build (`Roof` with `Walls`, `BK_Roof` with `BK_Walls`, `DT_Roof` with `DT_Shop`). Parts carry `FadeInside`: while you stand anywhere in the building (x -84..36, z -23..35) the roofs and upper walls go see-through (`DriveThruEffects`, `SHOP_MIN` / `SHOP_MAX`). Door and window gaps stay open to the roof.
 - Nothing is there at the start: the middle comes first (Floor, Walls, then decorations), the drive-in chain starts after Walls, the lot after Leaderboard (Expand Shop), the butik after Expand Shop.
 - The old buildings (big tree shop walls/floor, old drive-thru building + connector, shop wings, the first butik stock room) are kept in `ServerStorage.OldLayout_2026_11_17`, not deleted.
 
