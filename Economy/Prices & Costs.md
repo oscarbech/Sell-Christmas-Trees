@@ -46,6 +46,19 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig, DriveThru CON
 
 3,000 to get it running, 23,500 for everything. See [[Drive-Thru]].
 
+## Christmas Store (BUILD buttons, in order, green)
+First button appears after Expand Shop.
+
+| Button | Cost |
+|---|---|
+| Store Floor (floor, sidewalk, red carpet) | 2,000 |
+| Store Walls | 2,500 |
+| Store Sign | 1,000 |
+| Stock Room (lager wall, racks, loading door) | 3,000 |
+| Delivery Path (drive + back lane + loading dock) | 3,500 |
+
+12,000 for the shell. Placeholder prices until the store sells things ([[Butik & New Layout]]).
+
 ## Production
 | Value | Number |
 |---|---|

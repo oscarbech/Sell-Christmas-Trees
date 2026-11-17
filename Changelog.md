@@ -6,6 +6,9 @@ tags: [planning]
 ## 2026-11-17
 - Removed rebirth from the game: no rebirth pad, no +50% multiplier, no Rebirths on the leaderboard, not saved any more (`PlotManager`, `TreeFarmServer`). Tree price is now just 30 + 10 × shop level.
 - Planned the new plot layout and the Butik (home-supplies shop with grid placing): [[Butik & New Layout]].
+- Phase 1 of the new layout: [[Tree Lot]] + parking moved 66 studs west, road and ground extended to x -200, car spawn moved to x -196.
+- New Christmas Store (butik) shell between the lot and the tree shop: floor, walls, sign, stock room, delivery path; 5 green BUILD buttons after Expand Shop ([[Prices & Costs]]).
+- The stand is wider: booth, counter, sign, SELL TREES pad, wall gap and queue lane ([[Selling & Customers]]).
 
 ## 2026-11-16
 - Field expansion is now 8 square chunks (2 wide × 4 deep) instead of 7 strips; fence built in code ([[Field & Expansions]]).
