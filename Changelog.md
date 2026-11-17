@@ -13,6 +13,7 @@ tags: [planning]
 - Drive-thru moved into the building: lane, speaker, windows, netting machine; `DriveThru.CONFIG` lane numbers updated ([[Drive-Thru]]).
 - Old big tree shop walls/floor, old drive-thru building + connector, shop wings and the first butik stock room archived in `ServerStorage.OldLayout_2026_11_17`.
 - Shop wings gone, so the HIRE worker pads are not in the game for now ([[Workers]]).
+- Whole shop building made 24 studs deeper (z -17..35): butik, stand + lager and drive-in share the new back wall; back path, field walk and field moved back to match; drive-in U-turn at z 32.
 
 ## 2026-11-16
 - Field expansion is now 8 square chunks (2 wide × 4 deep) instead of 7 strips; fence built in code ([[Field & Expansions]]).

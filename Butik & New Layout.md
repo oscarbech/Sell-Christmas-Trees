@@ -26,10 +26,10 @@ One building along the road, like the sketch. Offsets from the plot pivot (road 
 | 20..36 | **Drive-in** room: netting machine, NET TREES / TAKE NETTED, 2 pick-up windows in the east wall | Drive-Thru buttons |
 | 36..58 | car lane: in next to the windows, U-turn at the back, out on the outer lane | Drive-Thru Lot |
 
-- Building depth z -17..11. Doors: middle to butik and middle to drive-in at z 3..9, back door x -3..3 to the field.
-- **Back path** (delivery lane) z 13..21 from x -94 to the car lane, with a yellow loading bay behind the lager. Built by Delivery Path.
-- **Field** moved 14 studs back: the gate is at z 27.5. `FieldWalk` (x -3..3, z 11..27.5) goes from the back door across the back path to the gate.
-- Shop floor for butik furniture: x -83..-21, z -16..10 (about 62 x 26).
+- Building depth z -17..35 (52 deep; made deeper on request). Doors: middle to butik and middle to drive-in at z 3..9, back door x -3..3 to the field.
+- **Back path** (delivery lane) z 37..45 from x -94 to the car lane, with a yellow loading bay behind the lager. Built by Delivery Path.
+- **Field** moved 38 studs back in total: the gate is at z 51.5. `FieldWalk` (x -3..3, z 35..51.5) goes from the back door across the back path to the gate.
+- Shop floor for butik furniture: x -83..-21, z -16..34 (about 62 x 50).
 - Nothing is there at the start: the middle comes first (Floor, Walls, then decorations), the drive-in chain starts after Walls, the lot after Leaderboard (Expand Shop), the butik after Expand Shop.
 - The old buildings (big tree shop walls/floor, old drive-thru building + connector, shop wings, the first butik stock room) are kept in `ServerStorage.OldLayout_2026_11_17`, not deleted.
 

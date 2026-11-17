@@ -47,7 +47,7 @@ Until the Netting Machine is built, cars at the window show `BUILD THE NETTING M
 ## Tech notes
 - Pieces wait in `ServerStorage.RemovedForStart.<Plot>.Plot` with a `BuildId` attribute (in Studio: `Workspace.EditStorage.RemovedForStart`, see [[Edit Mode]]); buttons are `Build_DT_*` in the plot's `BuildButtons`. Prices and order are attributes on the buttons (`Price`, `Requires`).
 - `DriveThru` (server): cars, the lane path, orders, the netting machine, pay. Numbers are in its `CONFIG`. Positions are offsets from the plot pivot, so a copied plot works.
-- Layout (offsets from the plot pivot): room x 20..36, z -17..11, door from the middle (stand + lager) at z 3..9. Lane asphalt x 36..58: entry lane x 40.3 (speaker z -28, windows z -13 and 2), U-turn at z 8, exit lane x 50.3 (`DriveThru.CONFIG`). Netting machine x 22..28 along z -10..3, NET TREES at the door end, rack + TAKE NETTED at the front.
+- Layout (offsets from the plot pivot): room x 20..36, z -17..35, door from the middle (stand + lager) at z 3..9. Lane asphalt x 36..58: entry lane x 40.3 (speaker z -28, windows z -13 and 2), U-turn at z 32, exit lane x 50.3 (`DriveThru.CONFIG`). Netting machine x 22..28 along z -10..3, NET TREES at the door end, rack + TAKE NETTED at the front.
 - The room walls are `DT_RoomWalls` + `DT_WallEast` (build id `DT_Shop`, button "Drive-In Room"); `DT_WallEast.Shutter2` covers window 2 until Second Window is bought.
 - The two windows must be exactly `Gap` (15) apart, or the second car in line stops short of window 2 and can't be served.
 - `DriveThruEffects` has the room footprint too (`SHOP_MIN` / `SHOP_MAX`, for the roof fade; the room has no roof now).

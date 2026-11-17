@@ -24,7 +24,7 @@ One building along the road, then a back path, then the tree field. Full table i
 | 20..36 | drive-in room |
 | 36..58 | drive-in car lane ([[Drive-Thru]]) |
 
-- Building z -17..11, back path z 13..21, field from z 27.5 (gate and middle path at x = 0). See [[Field & Expansions]].
+- Building z -17..35, back path z 37..45, field from z 51.5 (gate and middle path at x = 0). See [[Field & Expansions]].
 - The road and the `Ground` part reach x -200 on the west side; cars spawn at x -196.
 
 ## Adding a plot
