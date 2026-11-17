@@ -14,7 +14,7 @@ Place in Studio: **Build a Christmas Tree Empire** (placeId `87163912011225`).
 ## Systems
 - Plot: [[Plots]] · [[Field & Expansions]] · [[Shop Upgrades]]
 - Trees: [[Trees & Chopping]] · [[Axe & Toolsmith]] · [[Tree Maker]]
-- Selling: [[Selling & Customers]] · [[Drive-Thru]] · [[Tree Lot]] · [[Workshop & Decorating]]
+- Selling: [[Selling & Customers]] · [[Drive-Thru]] · [[Tree Lot]] · [[Store Building]] · [[Workshop & Decorating]]
 - Helpers: [[Workers]]
 - Progression: [[Events]] · [[Daily Rewards & Quests]] · [[Offline Earnings & Presents]]
 - Players: [[Play Together]] · [[Settings]] · [[Robux Shop]]

@@ -19,6 +19,7 @@ tags: [tech]
 | `TycoonExtras` | Script | [[Events]], [[Offline Earnings & Presents]], daily reward, leaderboard |
 | `PlayTogetherServer` | Script | [[Play Together]] |
 | `CheatCommands` | Script | [[Commands]] |
+| `StoreServer` | Script | Christmas Store furniture: place / move / sell, builds the pieces ([[Store Building]]) |
 | `EditStorageLoader` | Script | moves `Workspace.EditStorage` into ServerStorage at start ([[Edit Mode]]) |
 
 ## ReplicatedStorage
@@ -26,10 +27,11 @@ tags: [tech]
 |---|---|
 | `TreeFarmConfig` | icons, axes, events, daily rewards, quests, Robux shop |
 | `AxeOrbit` | shared axe orbit math |
+| `StoreFurniture` | store furniture catalog, grid and models ([[Store Building]]) |
 | `NettedTree` (model) | the netted tree the drive-thru machine makes |
 
 ## StarterPlayerScripts
-`AxeSpinner`, `TreeEffects`, `MachineEffects`, `SellEffects`, `CameraShake`, `EventBanner`, `BuildEffects`, `BuildPreview`, `CarryAnimation`, `DriveThruEffects` (netting machine juice, shop roof fade: [[Drive-Thru]])
+`AxeSpinner`, `TreeEffects`, `MachineEffects`, `SellEffects`, `CameraShake`, `EventBanner`, `BuildEffects`, `BuildPreview`, `CarryAnimation`, `DriveThruEffects` (netting machine juice, shop roof fade: [[Drive-Thru]]), `StoreBuildController` (store build mode: [[Store Building]])
 
 ## StarterGui.HUD
 `HUDController` (stats, tutorial, Robux shop, quests), `PlayTogetherController`, `ToolsmithController`, `SettingsController`

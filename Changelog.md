@@ -14,6 +14,7 @@ tags: [planning]
 - Old big tree shop walls/floor, old drive-thru building + connector, shop wings and the first butik stock room archived in `ServerStorage.OldLayout_2026_11_17`.
 - Shop wings gone, so the HIRE worker pads are not in the game for now ([[Workers]]).
 - Whole shop building made 24 studs deeper (z -17..35): butik, stand + lager and drive-in share the new back wall; back path, field walk and field moved back to match; drive-in U-turn at z 32.
+- Grid placing in the Christmas Store: BUILD MODE, 9 furniture pieces, snap-to-grid ghost, place / move / turn / sell, saved with the plot ([[Store Building]]).
 - Roof on the whole building like the old drive-in: red upper walls + snowy red roof on the butik, the stand + lager and the drive-in, see-through while you're inside ([[Butik & New Layout]]).
 
 ## 2026-11-16

@@ -48,7 +48,7 @@ One building along the road, like the sketch. Offsets from the plot pivot (road 
 
 ## Phases
 1. ✅ Layout: one building (butik | stand + lager | drive-in), lot on the left, back path, field behind.
-2. Grid placing system (server-checked, saved per plot).
+2. ✅ Grid placing system (server-checked, saved per plot): [[Store Building]].
 3. Supplies, deliveries, stocking, butik shoppers.
 4. Lot price board.
 
