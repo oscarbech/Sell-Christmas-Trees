@@ -13,20 +13,19 @@ Every player gets their own plot (tycoon) when they join. Plots live in `Workspa
 - The shop sign shows `<Name>'s Shop`.
 
 ## Layout (relative to plot pivot)
-Road along the front, buildings in a row, tree field behind (see [[Butik & New Layout]]):
+One building along the road, then a back path, then the tree field. Full table in [[Butik & New Layout]].
 
 | x | What |
 |---|---|
-| -180..-120 | [[Tree Lot]] + parking |
-| -119..-111 | store delivery drive |
-| -110..-54 | Christmas Store (butik) + stock room |
-| -54..-29 | shop link / west wing (Expand Shop) |
-| -31..30 | tree shop with the stand at the front (x -10..10) |
-| 47..108 | [[Drive-Thru]] |
+| -156..-96 | [[Tree Lot]] + parking |
+| -94..-86 | delivery drive |
+| -84..-20 | butik (Christmas Store) |
+| -20..20 | stand + lager (Tree Maker) |
+| 20..36 | drive-in room |
+| 36..58 | drive-in car lane ([[Drive-Thru]]) |
 
-- Field gate and middle path at the centre line (x = 0). See [[Field & Expansions]].
-- Behind the store: the delivery lane (z 23..31, x -119..-32).
-- The road and the `Ground` part reach x -200 on the west side.
+- Building z -17..11, back path z 13..21, field from z 27.5 (gate and middle path at x = 0). See [[Field & Expansions]].
+- The road and the `Ground` part reach x -200 on the west side; cars spawn at x -196.
 
 ## Adding a plot
 Copy `Plot1` and its `ServerStorage.PlotExpansions.Plot1` folder, move both by the same offset, and set `PlotIndex`. The full footprint is about 340 × 220 studs (x -200..138), so leave room for every expansion.

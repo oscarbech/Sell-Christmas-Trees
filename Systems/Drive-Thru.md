@@ -4,7 +4,7 @@ script: ServerScriptService.DriveThru, StarterPlayerScripts.DriveThruEffects, Se
 ---
 # Drive-Thru
 
-A standalone drive-thru shop ("Trees To Go"), like a McDonald's: its own 40 × 40 building east of the tree shop (where the old Workshop stood), just off the road, with a lane looping round it. Cars turn off the road, order at the speaker, drive round the back and stop at the pick-up window. You hand them **netted trees** through the window.
+The drive-in ("Trees To Go"): the right-hand room of the shop building (x 20..36), with the car lane along its east side. Cars turn off the road, order at the speaker, stop at the pick-up windows, U-turn at the back and drive out. You hand them **netted trees** through the window. (Moved into the shared building on 2026-11-17, see [[Butik & New Layout]].)
 
 It is separate from the tree shop (own building, own door, a path and crosswalk from the tree shop's open south side), but the trees still come from the [[Tree Maker]] tray and are carried the normal way.
 
@@ -47,9 +47,10 @@ Until the Netting Machine is built, cars at the window show `BUILD THE NETTING M
 ## Tech notes
 - Pieces wait in `ServerStorage.RemovedForStart.<Plot>.Plot` with a `BuildId` attribute (in Studio: `Workspace.EditStorage.RemovedForStart`, see [[Edit Mode]]); buttons are `Build_DT_*` in the plot's `BuildButtons`. Prices and order are attributes on the buttons (`Price`, `Requires`).
 - `DriveThru` (server): cars, the lane path, orders, the netting machine, pay. Numbers are in its `CONFIG`. Positions are offsets from the plot pivot, so a copied plot works.
-- Layout (offsets from the plot pivot): building x 62..102, z -40..0, door on the west side at z -10 (path + crosswalk from the tree shop). Entry lane x 57 (speaker at z -26), U-turn behind the building, exit lane x 107 with pick-up windows at z -30 and -15.
+- Layout (offsets from the plot pivot): room x 20..36, z -17..11, door from the middle (stand + lager) at z 3..9. Lane asphalt x 36..58: entry lane x 40.3 (speaker z -28, windows z -13 and 2), U-turn at z 8, exit lane x 50.3 (`DriveThru.CONFIG`). Netting machine x 22..28 along z -10..3, NET TREES at the door end, rack + TAKE NETTED at the front.
+- The room walls are `DT_RoomWalls` + `DT_WallEast` (build id `DT_Shop`, button "Drive-In Room"); `DT_WallEast.Shutter2` covers window 2 until Second Window is bought.
 - The two windows must be exactly `Gap` (15) apart, or the second car in line stops short of window 2 and can't be served.
-- `DriveThruEffects` has the building footprint too (`SHOP_MIN` / `SHOP_MAX`, for the roof fade). Change it if the building moves.
+- `DriveThruEffects` has the room footprint too (`SHOP_MIN` / `SHOP_MAX`, for the roof fade; the room has no roof now).
 - `DriveThruEffects` (client): machine sign + progress bar, conveyor, the tree riding through the funnel, sparkles, turbo fan, roof fade.
 - `ReplicatedStorage.NettedTree`: the netted tree model (attribute `Netted`).
 - `TreeFarmServer` calls `DriveThru.canFeed/feed`, `canTake/take`, `carNear`, `load`.
@@ -57,6 +58,5 @@ Until the Netting Machine is built, cars at the window show `BUILD THE NETTING M
 - The old DRIVE-THRU / LOAD CAR pads are no longer used (they sit in `RemovedForStart.<Plot>.Pads`).
 
 ## Open points
-- The old Shop East wing (not reachable right now) overlaps the path to the drive-thru if it's brought back.
 - The [[Workers|Car Loader]] isn't hooked up to the new shop (his pad is not in the game right now). If he's brought back, trees he loads get netted automatically.
 - "Second lane" became a second pick-up window on the same lane: there's no room for a second lane that still passes the building.

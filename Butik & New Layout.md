@@ -10,21 +10,28 @@ Sketch from 2026-11-17. **Phase 1 (layout) is built**; phases 2-4 are planned. I
 
 - Road along the front.
 - **Stand**: like now, part of the building; customers walk up to the counter. Give it more room.
-- **Butik**: new building between the lot and the shop; the lot moves west to make room.
-- **Lager**: storage room behind the stand, where butik stock arrives.
+- **Butik**: left section of the same building.
+- **Lager**: the middle section behind the stand (Tree Maker); butik stock arrives here from the back path.
 - **Path behind the building** for store deliveries (boxes for the butik), then the tree field at the bottom.
 
-## Phase 1: what's built (2026-11-17)
-- [[Tree Lot]] and its parking moved 66 studs west (x -180..-120); road and ground extended to x -200.
-- Christmas Store shell at x -110..-54, z -23..22, built with 5 green BUILD buttons after Expand Shop (prices in [[Prices & Costs]]):
-  - `BK_Floor`: floor, sidewalk in front, red carpet to the door.
-  - `BK_Walls`: low white walls like the tree shop, front door (x -88..-76), east door to the shop link (z -12..-2), loading-door gap at the back (x -76..-64). No roof, so placing furniture is easy to see.
-  - `BK_Sign`: CHRISTMAS STORE sign over the front door.
-  - `BK_Lager`: stock room at the back (z 8..22): wall with doorway, concrete floor, 4 empty pallet racks, yellow roll-up loading door.
-  - `BK_Delivery`: drive from the road (x -119..-111, DELIVERIES sign), lane behind the store (z 23..31) and a yellow loading dock at the back door.
-- Shop floor for furniture: x -109..-55, z -22..8 (54 × 30).
-- The stand is wider (see [[Selling & Customers]]).
-- Pieces live in `EditStorage.RemovedForStart.Plot1.Plot` with `BuildId` `BK_*`; buttons are `Build_BK_*` ([[Edit Mode]]).
+## Phase 1: what's built (2026-11-17, second try)
+One building along the road, like the sketch. Offsets from the plot pivot (road at z -45, field behind at +z):
+
+| x | Section | Unlocks with |
+|---|---|---|
+| -156..-96 | [[Tree Lot]] + parking | Expand Shop |
+| -94..-86 | delivery drive (road to back path) | Delivery Path |
+| -84..-20 | **Butik** (Christmas Store), front door x -58..-46 | Store Floor / Walls / Sign |
+| -20..20 | **Stand + lager**: stand sticks out to z -23 at x -10..10; Tree Maker, tray, DEPOSIT / COLLECT / UPGRADE BACKPACK pads inside | Floor, Walls (first buttons) |
+| 20..36 | **Drive-in** room: netting machine, NET TREES / TAKE NETTED, 2 pick-up windows in the east wall | Drive-Thru buttons |
+| 36..58 | car lane: in next to the windows, U-turn at the back, out on the outer lane | Drive-Thru Lot |
+
+- Building depth z -17..11. Doors: middle to butik and middle to drive-in at z 3..9, back door x -3..3 to the field.
+- **Back path** (delivery lane) z 13..21 from x -94 to the car lane, with a yellow loading bay behind the lager. Built by Delivery Path.
+- **Field** moved 14 studs back: the gate is at z 27.5. `FieldWalk` (x -3..3, z 11..27.5) goes from the back door across the back path to the gate.
+- Shop floor for butik furniture: x -83..-21, z -16..10 (about 62 x 26).
+- Nothing is there at the start: the middle comes first (Floor, Walls, then decorations), the drive-in chain starts after Walls, the lot after Leaderboard (Expand Shop), the butik after Expand Shop.
+- The old buildings (big tree shop walls/floor, old drive-thru building + connector, shop wings, the first butik stock room) are kept in `ServerStorage.OldLayout_2026_11_17`, not deleted.
 
 ## Three ways to sell
 | Where | How | Price |
@@ -39,7 +46,7 @@ Sketch from 2026-11-17. **Phase 1 (layout) is built**; phases 2-4 are planned. I
 3. Stock furniture with the boxes; shoppers browse, pick items and pay; restock when empty. A Stocker worker later.
 
 ## Phases
-1. ✅ Layout: move the lot, butik shell (BUILD buttons), bigger stand, back path + lager door.
+1. ✅ Layout: one building (butik | stand + lager | drive-in), lot on the left, back path, field behind.
 2. Grid placing system (server-checked, saved per plot).
 3. Supplies, deliveries, stocking, butik shoppers.
 4. Lot price board.

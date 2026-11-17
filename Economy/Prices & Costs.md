@@ -54,10 +54,9 @@ First button appears after Expand Shop.
 | Store Floor (floor, sidewalk, red carpet) | 2,000 |
 | Store Walls | 2,500 |
 | Store Sign | 1,000 |
-| Stock Room (lager wall, racks, loading door) | 3,000 |
-| Delivery Path (drive + back lane + loading dock) | 3,500 |
+| Delivery Path (drive + back path + loading bay) | 3,500 |
 
-12,000 for the shell. Placeholder prices until the store sells things ([[Butik & New Layout]]).
+9,000 for the shell. Placeholder prices until the store sells things ([[Butik & New Layout]]).
 
 ## Production
 | Value | Number |

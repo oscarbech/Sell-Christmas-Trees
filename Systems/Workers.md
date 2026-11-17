@@ -4,7 +4,7 @@ script: ServerScriptService.TreeFarmServer
 ---
 # Workers
 
-Hired on pads in the east shop wing; saved on the plot.
+Hired on pads in the east shop wing; saved on the plot. **The wing was removed with the new layout (2026-11-17), so the HIRE pads are not in the game right now.**
 
 | Worker | Cost | Job |
 |---|---|---|

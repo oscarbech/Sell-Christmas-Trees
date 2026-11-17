@@ -9,6 +9,10 @@ tags: [planning]
 - Phase 1 of the new layout: [[Tree Lot]] + parking moved 66 studs west, road and ground extended to x -200, car spawn moved to x -196.
 - New Christmas Store (butik) shell between the lot and the tree shop: floor, walls, sign, stock room, delivery path; 5 green BUILD buttons after Expand Shop ([[Prices & Costs]]).
 - The stand is wider: booth, counter, sign, SELL TREES pad, wall gap and queue lane ([[Selling & Customers]]).
+- Layout redone to match the sketch: **one building** along the road: butik (x -84..-20) | stand + lager with the Tree Maker (x -20..20) | drive-in room (x 20..36) with the car lane on its right. Tree lot on the far left (x -156..-96), back path behind the building, field moved 14 studs back with a walk from the back door to the gate ([[Butik & New Layout]]).
+- Drive-thru moved into the building: lane, speaker, windows, netting machine; `DriveThru.CONFIG` lane numbers updated ([[Drive-Thru]]).
+- Old big tree shop walls/floor, old drive-thru building + connector, shop wings and the first butik stock room archived in `ServerStorage.OldLayout_2026_11_17`.
+- Shop wings gone, so the HIRE worker pads are not in the game for now ([[Workers]]).
 
 ## 2026-11-16
 - Field expansion is now 8 square chunks (2 wide × 4 deep) instead of 7 strips; fence built in code ([[Field & Expansions]]).
