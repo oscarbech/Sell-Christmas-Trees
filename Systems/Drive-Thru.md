@@ -40,9 +40,8 @@ Built piece by piece with the purple BUILD buttons, one after another. Each piec
 
 Until the Netting Machine is built, cars at the window show `BUILD THE NETTING MACHINE`.
 
-## Saving and rebirth
+## Saving
 - What's built is the plot's `Built` list (ids `DT_Lot`, `DT_Shop`, `DT_Sign`, `DT_Speaker`, `DT_Window`, `DT_Netter`, `DT_Turbo`, `DT_Billboard`, `DT_Tips`, `DT_Window2`), saved by PlotManager like the other BUILD buttons ([[Saving]]).
-- A [[Rebirth]] takes the drive-thru back down (every `DT_` id is dropped from `Built`); the tree shop's own builds stay.
 - Trees inside the netting machine or on its rack are not saved.
 
 ## Tech notes

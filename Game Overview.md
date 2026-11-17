@@ -8,7 +8,6 @@ tags: [overview]
 
 - Every player gets their own plot ([[Plots]]), saved on their account ([[Saving]]).
 - Friends can join your plot and help ([[Play Together]]).
-- Rebirth to start over with a permanent earnings boost ([[Rebirth]]).
 
 ## Style
 - Blocky "studs" look, red/white shop, snowy ground.

@@ -13,7 +13,6 @@ tags: [design]
 - [[Drive-Thru]]: your own drive-thru shop. Net trees in the machine and hand them out to cars for double pay.
 - [[Workshop & Decorating]]: decorated trees sell for 2.5×.
 - [[Tree Lot]]: a display yard where shoppers buy on their own.
-- [[Rebirth]]: reset for +50% on every sale per rebirth.
 
 ## Retention
 [[Events]], [[Daily Rewards & Quests]], [[Offline Earnings & Presents]], the TOP TREE TYCOONS board.

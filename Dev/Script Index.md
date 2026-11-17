@@ -7,7 +7,7 @@ tags: [tech]
 | Script | Type | Purpose |
 |---|---|---|
 | `TreeFarmServer` | Script | main gameplay: chopping, deposit, collect, sell, pads, workers |
-| `PlotManager` | Module | plots, economy config, saving, rebirth, wipe ([[Plots]], [[Saving]]) |
+| `PlotManager` | Module | plots, economy config, saving, wipe ([[Plots]], [[Saving]]) |
 | `Expansions` | Module | field chunks, fence, shop wings, workshop, lot ([[Field & Expansions]]) |
 | `CustomerQueue` | Module | shop customers ([[Selling & Customers]]) |
 | `DriveThru` | Module | drive-thru shop: cars, orders, netting machine, pay ([[Drive-Thru]]) |

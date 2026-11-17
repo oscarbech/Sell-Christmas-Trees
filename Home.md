@@ -16,11 +16,12 @@ Place in Studio: **Build a Christmas Tree Empire** (placeId `87163912011225`).
 - Trees: [[Trees & Chopping]] · [[Axe & Toolsmith]] · [[Tree Maker]]
 - Selling: [[Selling & Customers]] · [[Drive-Thru]] · [[Tree Lot]] · [[Workshop & Decorating]]
 - Helpers: [[Workers]]
-- Progression: [[Rebirth]] · [[Events]] · [[Daily Rewards & Quests]] · [[Offline Earnings & Presents]]
+- Progression: [[Events]] · [[Daily Rewards & Quests]] · [[Offline Earnings & Presents]]
 - Players: [[Play Together]] · [[Settings]] · [[Robux Shop]]
 - Tech: [[Saving]] · [[Commands]] · [[Script Index]] · [[Edit Mode]]
 
 ## Planning
+- [[Butik & New Layout]] (planned)
 - [[Ideas]]
 - [[To-do]]
 - [[Changelog]]

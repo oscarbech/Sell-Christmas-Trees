@@ -9,7 +9,6 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig, DriveThru CON
 |---|---|
 | Base tree price | 30 |
 | + per shop wing | 10 |
-| Rebirth bonus | +50% per rebirth |
 | Decorated tree | × 2.5 |
 | Golden tree | tree price × 8 |
 | Drive-thru car | × 2 per netted tree (× 3 with the tip jar) |
@@ -30,7 +29,6 @@ source: PlotManager.CONFIG, TreeFarmServer CONFIG, TreeFarmConfig, DriveThru CON
 | Lot stands | 1,500, 4,000 |
 | Lot decorations | 2,000, 5,000, 12,000 |
 | Lumberjack / Seller / Loader | 500 / 2,500 / 6,000 |
-| Rebirth | 25,000 × (rebirths + 1) |
 
 ## Drive-thru shop (BUILD buttons, in order)
 | Button | Cost |

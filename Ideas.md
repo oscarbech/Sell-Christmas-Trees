@@ -9,7 +9,6 @@ tags: [planning]
 - [ ] Sprinklers or a gardener worker that speeds up regrow.
 
 ## Progression
-- [ ] Rebirth shop: rebirth currency for permanent perks (start with chunk 1, bigger backpack, faster axe).
 - [ ] Axe collection: rare axes from golden trees / events.
 
 ## Selling
@@ -23,4 +22,4 @@ tags: [planning]
 ## Polish
 - [ ] Lamps / candy canes along the middle path that light up as chunks are bought.
 
-Links: [[Field & Expansions]], [[Rebirth]], [[Events]]
+Links: [[Field & Expansions]], [[Events]]

@@ -3,6 +3,10 @@ tags: [planning]
 ---
 # Changelog
 
+## 2026-11-17
+- Removed rebirth from the game: no rebirth pad, no +50% multiplier, no Rebirths on the leaderboard, not saved any more (`PlotManager`, `TreeFarmServer`). Tree price is now just 30 + 10 × shop level.
+- Planned the new plot layout and the Butik (home-supplies shop with grid placing): [[Butik & New Layout]].
+
 ## 2026-11-16
 - Field expansion is now 8 square chunks (2 wide × 4 deep) instead of 7 strips; fence built in code ([[Field & Expansions]]).
 - Middle path through the field; field gate moved onto it; Lumberjack uses the new gate.
